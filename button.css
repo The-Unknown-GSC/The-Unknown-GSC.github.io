@@ -1,0 +1,24 @@
+/* Custom styles for Log In button */
+.log-in-button {
+    position: fixed;
+    top: 86px;
+    left: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  /* Custom styles for Sign Up button */
+  .sign-up-button {
+    position: fixed;
+    top: 86px;
+    left: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  

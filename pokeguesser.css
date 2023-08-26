@@ -1,0 +1,102 @@
+body, h1, h2, h3, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav li:nth-child(1) a:hover {
+    color:#e13f3f;
+    background-color: #333;
+    border-color: #e13f3f;
+}
+
+nav li:nth-child(2) a:hover {
+    color: #ff5722;
+    background-color: #333;
+    border-color: #ff5722;
+}
+
+nav li:nth-child(3) a:hover {
+    color: #4caf50;
+    background-color: #333;
+    border-color: #4caf50;
+}
+
+nav li:nth-child(4) a:hover {
+    color: #2196f3;
+    background-color: #333;
+    border-color: #2196f3;
+}
+
+nav li:nth-child(5) a:hover {
+    color: #fc53ab;
+    background-color: #333;
+    border-color: #fc53ab;
+}
+
+nav li:nth-child(6) a:hover {
+    color: #701480;
+    background-color: #333;
+    border-color: #701480;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+    display: inline-block; /* Added */
+    padding: 10px 20px; /* Added */
+    border: 2px solid #333; /* Added */
+    border-radius: 10px; /* Added */
+}
+
+nav a:hover {
+    color: #007bff;
+    background-color: #333; /* Added */
+    border-color: #007bff; /* Added */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e62117;
+    color: white;
+    text-align: center;
+    padding: 0.3rem 0;
+    font-size: 2rem; /* Increase the font size value */
+}
+
+main {
+    padding: 0; /* Updated to remove 'rem' unit */
+}

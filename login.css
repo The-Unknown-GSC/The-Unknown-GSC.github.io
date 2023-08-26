@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  .login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+  .login-container h2 {
+    margin-bottom: 20px;
+}
+  .form-group {
+    margin-bottom: 15px;
+}
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+  .form-group button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+  /* Existing styles */
+
+  /* Additional styles for the login container */
+  .login-container {
+    
+    /* Center the container both horizontally and vertically */
+    display: flex;
+    width: 18rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+  /* Style for the login form */
+  form {
+    width: 100%;
+}
+
+  /* Style for form labels */
+  .form-group label {
+    font-weight: bold;
+}
+
+  /* Style for form inputs */
+  .form-group input {
+    /* Existing styles */
+
+    /* Add some spacing to the top and bottom of inputs */
+    margin: 5px 0;
+}
+
+  /* Style for the login button */
+  .form-group button {
+    /* Existing styles */
+
+    /* Adjust button width to fill the form container */
+    width: 100%;
+}
+
+  /* Add some spacing between the form and the container edges */
+.login-container form {
+    padding: 0 15px;
+}
+
+  /* Style for the login container heading */
+.login-container h2 {
+    color: #333;
+}
+
+.loginButton {
+  position: relative;
+  vertical-align: top;
+  background-color: transparent;
+}
+
+/* Additional style for the entire body */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+

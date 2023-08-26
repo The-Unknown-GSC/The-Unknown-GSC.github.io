@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex</title>
+    <link
+      href="https://db.onlinewebfonts.com/c/d2d21cf0ee4c1d969d8a4dccc587ab26?family=Flexo-Medium"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="pokedex.css" />
+  </head>
+  <body>
+    <body style="background-image: url('img/background.jpg');">
+      <!-- Your website content here -->
+    </body>
+    <form>
+      <button style="position: fixed; top: 186px; left: 10px; background-color: #007bff; color: white; border: 3px solid #000000; padding: 10px 20px; border-radius: 5px;">
+        <a href="login.html">Log In</a>
+      </button>      
+    </form>
+    <button style="position: fixed; top: 146px; left: 10px; background-color: #007bff; color: white; border: 3px solid #000000; padding: 10px 20px; border-radius: 5px;">
+      <a href="signup.html">Sign Up</a>
+    </button>
+    <header>
+      <h1><img src="\img\pokeball1.png" width="5%" /> Pokédex</h1>
+    </header>
+    <main>
+      <!-- Navigation and content from the original code -->
+      <nav>
+        <ul id="menuList">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pokedex.html" id="Pokédex">Pokédex</a></li>
+            <li><a href="pokeinfo.html">PokéInfo</a></li>
+            <li><a href="pokefacts.html">PokéFacts</a></li>
+            <li><a href="pokeguesser.html">PokéGuesser</a></li>
+            
+        </ul>
+    </nav>
+    <section id="menuContent">
+    </section>
+    <style>
+        /* Reset default margin and padding */
+
+    </style>
+    <span><ul class="pokedex-filter-tw-list">
+    <section id="menuContent">
+    <div class="search-sort-container">
+      <div class="sorting-container">
+        <label for="sortingSelect">Sort by:</label>
+        <select id="sortingSelect" title="Sort Pokémon by">
+          <option value="name-asc">Sort by Name (A-Z)</option>
+          <option value="name-desc">Sort by Name (Z-A)</option>
+          <option value="number">Sort by Number (#0001-#1000)</option>
+      </select>
+      </div>
+      </div>
+    </span>
+      <span><div class="search-container">
+        <input type="text" id="search" placeholder="Search Pokémon" />
+        <button id="searchBtn">Search
+        </button>
+      </div>
+      </span>
+    </div>
+  </div>
+  <div id="pokedex" class="pokemon-list"></div>
+  <div class="pagination" id="paginationButtons" hidden>
+    <button id="prevPage">Last Page</button>
+    <button id="nextPage">Next Page</button>
+  </div>
+    </main>
+    <script src="pokedex.js"></script>
+  </body>
+</html>

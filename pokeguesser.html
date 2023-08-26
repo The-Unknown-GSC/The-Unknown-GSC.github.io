@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PokéGuesser</title>
+    <link
+      href="https://db.onlinewebfonts.com/c/d2d21cf0ee4c1d969d8a4dccc587ab26?family=Flexo-Medium"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="pokedex.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <body style="background-image: url('img/background.jpg');">
+      <!-- Your website content here -->
+    </body>
+    <form>
+      <button style="position: fixed; top: 186px; left: 10px; background-color: #007bff; color: white; border: 3px solid #000000; padding: 10px 20px; border-radius: 5px;">
+        <a href="login.html">Log In</a>
+      </button>      
+    </form>
+    <button style="position: fixed; top: 146px; left: 10px; background-color: #007bff; color: white; border: 3px solid #000000; padding: 10px 20px; border-radius: 5px;">
+      <a href="signup.html">Sign Up</a>
+    </button>    
+    <header>
+      <h1><img src="\img\pokeball1.png" width="6%"/> PokéPoké</h1>
+    </header>
+    <main>
+      <!-- Navigation and content from the original code -->
+      <nav>
+        <ul id="menuList">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pokedex.html" id="Pokédex">Pokédex</a></li>
+            <li><a href="pokeinfo.html">PokéInfo</a></li>
+            <li><a href="pokefacts.html">PokéFacts</a></li>
+            <li><a href="pokeguesser.html">PokéGuesser</a></li>
+            
+        </ul>
+    </nav>
+    <section id="menuContent">
+    </section>
+    <div class="container">
+      <div class="poke-info">
+        <p id="poke-height"></p>
+        <p id="poke-weight"></p>
+        <div class="guess-container">
+          <p id="guessAttribute1"></p>
+          <p id="attributeValue1"></p>
+          <p id="guessAttribute2"></p>
+          <p id="attributeValue2"></p>
+          <p id="guessAttribute3"></p>
+          <p id="attributeValue3"></p>
+        </div>
+        <div class="search-container">
+          <input
+            type="text"
+            id="pokemonInput"
+            placeholder="Enter the Pokémon name"
+          />
+          <button id="searchButton">Search</button>
+        </div>
+        
+        <p id="feedbackMessage"></p>
+      </div>
+      <button id="hintButton">Hint</button>
+      <button id="quitButton">Answer</button>
+    </div>
+      </div>
+    </div>
+
+    <!-- ... (remaining HTML code) -->
+
+    <script src="pokeguesser.js"></script>
+
+    <style>
+      /* styles.css */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f0f0f0;
+      }
+
+      .container {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+      }
+
+      .poke-info {
+        margin-bottom: 20px;
+      }
+
+      button {
+        margin: 5px;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+
+      .search-container {
+        margin-top: 20px;
+      }
+
+      #pokemonInput {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-right: 10px;
+      }
+
+      #searchButton {
+        padding: 8px 16px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      /* ... (previous CSS code) */
+
+      .container {
+        /* ... (previous container styles) */
+        text-align: center;
+      }
+
+      .search-container {
+        margin-top: 10px;
+      }
+
+      #pokemonInput {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-right: 10px;
+      }
+
+      #searchButton {
+        padding: 8px 16px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    </style>
+  </body>
+</html>

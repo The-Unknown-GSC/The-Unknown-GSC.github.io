@@ -1,0 +1,256 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav li:nth-child(1) a:hover {
+    color:#e13f3f;
+    background-color: #333;
+    border-color: #e13f3f;
+}
+
+nav li:nth-child(2) a:hover {
+    color: #ff5722;
+    background-color: #333;
+    border-color: #ff5722;
+}
+
+nav li:nth-child(3) a:hover {
+    color: #4caf50;
+    background-color: #333;
+    border-color: #4caf50;
+}
+
+nav li:nth-child(4) a:hover {
+    color: #2196f3;
+    background-color: #333;
+    border-color: #2196f3;
+}
+
+nav li:nth-child(5) a:hover {
+    color: #fc53ab;
+    background-color: #333;
+    border-color: #fc53ab;
+}
+
+nav li:nth-child(6) a:hover {
+    color: #701480;
+    background-color: #333;
+    border-color: #701480;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+    display: inline-block; /* Added */
+    padding: 10px 20px; /* Added */
+    border: 2px solid #333; /* Added */
+    border-radius: 10px; /* Added */
+}
+
+nav a:hover {
+    color: #007bff;
+    background-color: #333; /* Added */
+    border-color: #007bff; /* Added */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e62117;
+    color: white;
+    text-align: center;
+    padding: 0.3rem 0;
+    font-size: 2rem; /* Increase the font size value */
+}
+
+main {
+    padding: 0; /* Updated to remove 'rem' unit */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 2rem;
+}
+
+#search {
+    flex: 0.3;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    margin-left: 55rem; /* Adjust the margin to separate from the button */
+    border-radius: 1rem;
+}
+
+#searchBtn {
+    padding: 0.5rem 1rem;
+    background-color: #ff5900;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+
+.pokemon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.pokemon-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+}
+
+.pokemon-card img {
+    width: 100%;
+    min-width: 99%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.sorting-container {
+    display: flex;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 16rem;
+}
+
+.sorting-container select {
+    flex: 1rem;
+    padding: 0.5rem; /* Adjust the padding as needed */
+    font-size: 1.2rem; /* Adjust the font size as needed */
+    width: 300px; /* Make the select element fill the available width */
+    box-sizing: border-box; /* Include padding in the element's total width */
+    margin-right: 1rem;
+    margin-top: 0rem;
+    border: 3px solid #000000;
+    border-radius: 3rem;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.pagination button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #e62117;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.pagination button:hover {
+    background-color: #d61100;
+}
+
+.type-tag {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    margin: 0.2em;
+    background-color: #ccc;
+    border-radius: 5px;
+    font-family: 'Flexo-Medium', Arial, sans-serif;
+}
+
+.types-container {
+    margin-top: 0.5em;
+}
+
+@import url(https://db.onlinewebfonts.com/c/d2d21cf0ee4c1d969d8a4dccc587ab26?family=Flexo-Medium);
+
+@font-face {
+    font-family: "Flexo-Medium";
+    src: url("https://db.onlinewebfonts.com/t/d2d21cf0ee4c1d969d8a4dccc587ab26.eot");
+    /* ... Other font formats ... */
+}
+
+.pokemon-card h3 {
+    font-family: 'Flexo-Demi', Arial, sans-serif;
+    src: url("https://db.onlinewebfonts.com/t/073a3b73a63a87e100f6bb8f003fc0d3.eot")
+}
+
+@import url(https://db.onlinewebfonts.com/c/073a3b73a63a87e100f6bb8f003fc0d3?family=Flexo-Demi);
+
+.poison-type {
+    color: white;
+}
+
+.search-sort-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+  .stats-container {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+
+.pokemon-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+}
+
+.pokemon-info {
+    text-align: left; /* Align the National Pokédex Number and Pokémon name to the left */
+}
+
+.pokemon-card img {
+    width: 100%;
+    min-width: 99%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
